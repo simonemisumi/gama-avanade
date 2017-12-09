@@ -139,3 +139,5 @@ $.ajax({
 Assim que você conseguir fazer todos os testes passarem faça um fork do nosso projeto no github e compartilhe!
 
 Bom trabalho e nos falamos no próximo simulado!
+
+Se tiver dúvidas, sugestões, correções, reclamações ou elogios, usa o sistema de issues do github que a gente se conversa: [https://github.com/gamaacademy/gama-avanade-tryout01/issues](https://github.com/gamaacademy/gama-avanade-tryout01/issues)
