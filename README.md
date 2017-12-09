@@ -112,6 +112,30 @@ Você deve cumprir os seguintes requisitos para todos os testes passarem:
 * Deverá criar um elemento com o id "feedback-name" com o texto "Não pode estar vazio" abaixo do campo name
 * Deverá criar um elemento com o id "feedback-email" com o texto "Não pode estar vazio\nNão é válido" abaixo do campo email
 
+## Uso da API
+
+Você tem que usar nossa API para enviar os dados do formulário de inscrição. Pra facilitar sua vida, vamos deixar um código já mastigado pra você não perder tempo com isso ;)
+
+Você tem que colocar seu email de inscrição no campo "header" pra gente acompanhar sua evolução, sem isso a API não vai funcionar.
+
+```javascript
+$.ajax({
+	method: 'POST',
+	url: 'http://avanade.gama.academy/api/process_applications',
+	dataType: 'json',
+	headers: { EMAIL: null }, // coloque seu email que usou para se inscrever aqui!
+	contentType: 'application/json',
+	data: JSON.stringify({ process_application: { name: $('#name').val(), email: $('#email').val() } }),
+	success: function(json) { 
+		// Código de successo!
+	},
+	error: function(jqXHR, textStatus, errorThrown) {
+		// Não esquece de tratar os erros
+	}
+});
+```
+
+
 Assim que você conseguir fazer todos os testes passarem faça um fork do nosso projeto no github e compartilhe!
 
 Bom trabalho e nos falamos no próximo simulado!
