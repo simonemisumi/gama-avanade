@@ -1,0 +1,43 @@
+{
+  "name": "gama-avanade-tryout01",
+  "version": "1.0.0",
+  "description": "Primeiro simulado para testar suas habilidades de HTML, CSS e Javascript do programa Avanade Angular Academy By Gama",
+  "main": "test.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "resemblejs": "^2.5.0",
+    "wdio-mocha-framework": "^0.5.11",
+    "webdriverio": "^4.9.11",
+    "wdio-chromedriver-service": "~0.1",
+    "canvas": "^1.6.7",
+    "canvas-prebuilt": "^1.6.5-prerelease.1"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js",
+    "start": "node server.js 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gamaacademy/gama-avanade-tryout01-resolution.git"
+  },
+  "keywords": [
+    "node",
+    "angular",
+    "javascript",
+    "html",
+    "css",
+    "tryout",
+    "avanade",
+    "gama",
+    "academy",
+    "assessment"
+  ],
+  "author": "Saulo Arruda",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/gamaacademy/gama-avanade-tryout01-resolution/issues"
+  },
+  "homepage": "https://github.com/gamaacademy/gama-avanade-tryout01-resolution#readme"
+}
