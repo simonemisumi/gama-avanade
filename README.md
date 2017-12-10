@@ -82,13 +82,13 @@ Você deve cumprir os seguintes requisitos para todos os testes passarem:
 
 * Deve haver uma tag main com o id "main"
 * O layout da página deve seguir exatamente o layout da imagem abaixo rodando no Chrome com resolução de 800x600 px.
-![](https://github.com/gamaacademy/gama-avanade-tryout01/raw/master/test/win32-assertion-desktop.png)
+![Layout Desktop](https://raw.githubusercontent.com/gamaacademy/gama-avanade-tryout01/master/test/darwin-assertion-desktop.png)
 
 #### O layout mobile deve ser igual ao gabarito
 
 * Deve haver uma tag main com o id "main"
 * O layout da página deve seguir exatamente o layout da imagem abaixo rodando no Chrome com resolução de 376x667 px.
-![](https://github.com/gamaacademy/gama-avanade-tryout01/raw/master/test/win32-assertion-mobile.png)
+![Layout Mobile](https://raw.githubusercontent.com/gamaacademy/gama-avanade-tryout01/master/test/darwin-assertion-mobile.png)
 
 
 ### Formulário de inscrição
