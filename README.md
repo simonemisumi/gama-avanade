@@ -62,6 +62,25 @@ node node_modules/chromedriver/install.js
 
 Pronto! Agora é só começar a codar!
 
+
+## Instalando dependências no Linux
+
+Siga as instruções para instalar o Node.js através do gerenciador de pacotes da sua distribuição: https://nodejs.org/en/download/package-manager/
+
+Instale as dependências externas:
+
+```
+$ sudo apt-get update 
+$ sudo apt-get install libcairo2-dev libjpeg-dev libpango1.0-dev libgif-dev build-essential g++
+```
+
+Agora instale as dependências do npm:
+
+`$ npm install`
+
+Pronto! Agora é só começar a codar!
+
+
 Dependências instaladas, faça o clone deste projeto do github e vamos entender a estrutura inicial. Você vai encontrar alguns arquivos já criados e trabalhar a partir daí. A ideia aqui é exercitar um pouco de TDD ([Test Driven Development](https://pt.wikipedia.org/wiki/Test_Driven_Development)). A primeira coisa que você precisa fazer é rodar na sua linha de comando o seguinte:
 
 ```
